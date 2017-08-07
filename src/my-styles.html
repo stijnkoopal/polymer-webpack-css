@@ -8,15 +8,15 @@ Code distributed by Google as part of the polymer project is also
 subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
 -->
 
+<link rel="import" href="../bower_components/polymer/polymer-element.html">
+
 <dom-module id="my-styles">
-
+  <link rel="import" type="css" href="styling.css">
   <template>
-    <link rel="import" type="css" href="./styling.css">
-
     <style>
       .from-my-styles {
-        height: 400px;
         width: 400px;
+        height: 400px;
         background: green;
       }
     </style>
